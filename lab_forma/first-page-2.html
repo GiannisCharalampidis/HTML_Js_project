@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width , initial-scale=1.0" >
+    <title>Αρχική σελίδα</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/first-page-style-2.css">
+</head>
+
+
+<body>
+    <nav id="menu" class="navbar sticky-top navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Home</a>
+            <a class="navbar-brand" href="#">About </a>
+            <a class="navbar-brand" href="#">Meats</a>
+            <a class="navbar-brand" href="#">Cheeses</a>
+            <a class="navbar-brand" href="#">Vegetables</a>
+            <a class="navbar-brand" href="#">Find us</a>
+            <a id="OpenOrderPage" href="#" class="button type--B">
+                <div class="button__line"></div>
+                <div class="button__line"></div>
+                <span class="button__text">ORDER NOW</span>
+                <div class="button__drow1"></div>
+                <div class="button__drow2"></div>
+              </a>
+        </div>
+    <div class="wrapper">
+        <div class="container2">
+            <input type="radio" name="slide" id="c1" checked>
+            <label for="c1" class="card">
+                <div class="row">
+                    <div class="icon">1</div>
+                    <div class="description">
+                        <h4>Meats</h4>
+                        <p>Premium cuts for exceptional meals: fresh, local, and delicious</p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c2" >
+            <label for="c2" class="card">
+                <div class="row">
+                    <div class="icon">2</div>
+                    <div class="description">
+                        <h4>Cheeses</h4>
+                        <p>Artisanal cheeses for exquisite flavors: handcrafted and locally sourced.</p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c3" >
+            <label for="c3" class="card">
+                <div class="row">
+                    <div class="icon">3</div>
+                    <div class="description">
+                        <h4>Vegetables</h4>
+                        <p>Farm-fresh produce for vibrant dishes: locally sourced and seasonal.</p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c4" >
+            <label for="c4" class="card">
+                <div class="row">
+                    <div class="icon">4</div>
+                    <div class="description">
+                        <h4>About</h4>
+                        <p>Learn more about us and our journey</p>
+                    </div>
+                </div>
+            </label>
+            <input type="radio" name="slide" id="c5" >
+            <label for="c5" class="card">
+                <div class="row">
+                    <div class="icon">5</div>
+                    <div class="description">
+                        <h4>Find Us</h4>
+                        <p>Find us in numerous towns</p>
+                    </div>
+                </div>
+            </label>
+
+            </label>
+        </div>
+    </div>
+</body>
+
+<script>
+    document.getElementById("OpenOrderPage").addEventListener("click", function() {
+    window.location.href = "./order-page.html";
+    });
+</script>
+
+</html>
